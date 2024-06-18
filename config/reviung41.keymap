@@ -52,9 +52,9 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp LS(GRAVE)  &kp RA(Q)  &kp NUMBER_2   &kp N3     &kp RA(R)  &kp K_PLAY_PAUSE                  &kp N6  &kp KP_PLUS   &kp KP_MINUS      &kp KP_DIVIDE      &kp KP_MULTIPLY  &kp DEL
-&kp TAB        &kp RA(A)  &kp RA(EQUAL)  &kp LA(D)  &kp LA(F)  &kp K_VOLUME_UP                   &kp H   &kp UP_ARROW  &kp LEFT          &kp RIGHT          &trans           &kp KP_EQUAL
-&kp LCTRL      &kp LCTRL  &kp NUMBER_4   &kp N5     &kp RA(V)  &kp K_VOLUME_DOWN                 &kp U   &kp DOWN      &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))  &trans           &kp ESCAPE
+&kp LS(GRAVE)  &kp RA(Q)  &kp NUMBER_2   &kp N3     &kp RA(R)  &kp C_PLAY_PAUSE                  &kp N6  &kp KP_PLUS   &kp KP_MINUS      &kp KP_DIVIDE      &kp KP_MULTIPLY  &kp DEL
+&kp TAB        &kp RA(A)  &kp RA(EQUAL)  &kp LA(D)  &kp LA(F)  &kp C_VOLUME_UP                   &kp H   &kp UP_ARROW  &kp LEFT          &kp RIGHT          &trans           &kp KP_EQUAL
+&kp LCTRL      &kp LCTRL  &kp NUMBER_4   &kp N5     &kp RA(V)  &kp C_VOLUME_DOWN                 &kp U   &kp DOWN      &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))  &trans           &kp ESCAPE
                                          &mo 3      &kp LSHFT                     &kp RA(SPACE)          &trans        &trans
             >;
         };
@@ -67,9 +67,9 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                &kp F7           &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &kp LOCKING_NUM  &none   &none   &none    &none    &none
-&bt BT_PRV  &none         &none         &none         &none         &bt BT_CLR            &trans           &none   &none   &none    &none    &kp ESCAPE
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                &kp F7           &kp F8  &kp F9                &kp F10               &kp F11  &kp F12
+&bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &kp LOCKING_NUM  &none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none    &none
+&bt BT_PRV  &none         &none         &none         &none         &bt BT_CLR            &trans           &none   &none                 &none                 &none    &kp ESCAPE
                                         &trans        &trans                      &trans                   &trans  &trans
             >;
         };
