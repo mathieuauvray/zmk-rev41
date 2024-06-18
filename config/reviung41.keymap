@@ -37,10 +37,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp TAB    &trans    &trans    &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                  &kp N6        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp DELETE
-&kp LSHFT  &trans    &kp LEFT  &kp RIGHT     &kp UP_ARROW    &kp PAGE_UP             &kp CAPSLOCK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT  &trans
-&kp LCTRL  &kp LGUI  &trans    &trans        &kp DOWN        &kp PAGE_DOWN           &kp U         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0   &kp ENTER
-                               &trans        &kp LSHFT                      &kp RET                &kp LALT         &mo 3
+&kp TAB    &kp C_PREVIOUS  &kp K_NEXT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                  &kp N6        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp DELETE
+&kp LSHFT  &trans          &kp LEFT    &kp RIGHT     &kp UP_ARROW    &kp PAGE_UP             &kp CAPSLOCK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT  &trans
+&kp LCTRL  &kp LGUI        &trans      &trans        &kp DOWN        &kp PAGE_DOWN           &kp U         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0   &kp ENTER
+                                       &trans        &kp LSHFT                      &kp RET                &kp LALT         &mo 3
             >;
         };
 
