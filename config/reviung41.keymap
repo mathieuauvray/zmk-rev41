@@ -67,10 +67,10 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                &kp F7           &kp F8  &kp F9                &kp F10               &kp F11  &kp F12
-&bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &kp LOCKING_NUM  &none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none    &none
-&bt BT_PRV  &none         &none         &none         &none         &bt BT_CLR            &trans           &none   &none                 &none                 &none    &kp ESCAPE
-                                        &trans        &trans                      &trans                   &trans  &trans
+&kp F1      &kp F2         &kp F3         &kp F4         &kp F5         &kp F6                &kp F7           &kp F8  &kp F9                &kp F10               &kp F11  &kp F12
+&bt BT_NXT  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4          &kp LOCKING_NUM  &none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &none    &none
+&bt BT_PRV  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_CLR            &trans           &none   &none                 &none                 &none    &kp ESCAPE
+                                          &trans         &trans                       &trans                   &trans  &trans
             >;
         };
     };
