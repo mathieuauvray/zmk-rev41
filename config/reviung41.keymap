@@ -52,10 +52,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp LS(GRAVE)  &kp RA(Q)  &kp NUMBER_2  &kp N3     &kp RA(NUMBER_4)  &kp C_PLAY_PAUSE                  &kp N6            &kp PLUS      &kp MINUS   &kp SLASH   &kp KP_MULTIPLY  &kp DEL
-&kp TAB        &kp RA(A)  &kp RA(S)     &kp RA(D)  &kp RA(F)         &kp C_VOLUME_UP                   &kp KP_EQUAL      &kp UP_ARROW  &kp LEFT    &kp RIGHT   &kp KP_DIVIDE    &kp KP_MINUS
-&kp LCTRL      &kp LCTRL  &kp NUMBER_4  &kp N5     &kp RA(V)         &kp C_VOLUME_DOWN                 &kp C_PLAY_PAUSE  &kp DOWN      &kp K_PREV  &kp C_NEXT  &kp KP_MULTIPLY  &kp KP_PLUS
-                                        &mo 3      &kp LSHFT                            &kp RA(SPACE)                    &trans        &trans
+&kp LS(GRAVE)  &kp RA(Q)  &kp NUMBER_2  &kp N3     &kp RA(R)  &kp C_PLAY_PAUSE                  &kp N6            &kp PLUS      &kp MINUS       &kp SLASH   &kp KP_MULTIPLY  &kp DEL
+&kp TAB        &kp RA(A)  &kp RA(S)     &kp RA(D)  &kp RA(F)  &kp C_VOLUME_UP                   &kp KP_EQUAL      &kp UP_ARROW  &kp LEFT        &kp RIGHT   &kp KP_DIVIDE    &kp KP_MINUS
+&kp LCTRL      &kp LCTRL  &kp NUMBER_4  &kp N5     &kp RA(V)  &kp C_VOLUME_DOWN                 &kp C_PLAY_PAUSE  &kp DOWN      &kp C_PREVIOUS  &kp C_NEXT  &kp KP_MULTIPLY  &kp KP_PLUS
+                                        &mo 3      &kp LSHFT                     &kp RA(SPACE)                    &trans        &trans
             >;
         };
 
