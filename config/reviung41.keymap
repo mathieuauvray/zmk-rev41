@@ -37,10 +37,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp TAB    &kp LS(TAB)  &kp K_NEXT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                  &kp CAPSLOCK     &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
-&kp LSHFT  &trans       &kp LEFT    &kp RIGHT     &kp UP_ARROW    &kp PAGE_UP             &kp KP_NUMBER_0  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
-&kp LCTRL  &kp LGUI     &trans      &trans        &kp DOWN        &kp PAGE_DOWN           &kp KP_DOT       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
-                                    &trans        &kp LSHFT                      &kp RET                   &kp LALT          &mo 3
+&kp TAB    &none           &kp K_PREVIOUS       &none             &kp LEFT_SHIFT     &trans                  &kp CAPSLOCK     &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
+&kp LSHFT  &kp C_PREVIOUS  &kp C_NEXT           &kp C_PLAY_PAUSE  &kp C_VOLUME_UP    &kp PAGE_UP             &kp KP_NUMBER_0  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
+&kp LCTRL  &none           &kp LA(LG(LS(TAB)))  &kp LA(LG(TAB))   &kp C_VOLUME_DOWN  &kp PAGE_DOWN           &kp KP_DOT       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
+                                                &trans            &kp LSHFT                         &kp RET                   &kp LALT          &mo 3
             >;
         };
 
@@ -52,10 +52,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp LS(GRAVE)  &kp RA(Q)         &kp NUMBER_2  &kp N3     &kp RA(R)  &kp C_PLAY_PAUSE                  &kp N6    &kp PLUS      &kp MINUS       &kp SLASH   &kp KP_MULTIPLY  &kp DEL
-&kp TAB        &kp RA(A)         &kp RA(S)     &kp RA(D)  &kp RA(F)  &kp C_VOLUME_UP                   &kp HOME  &kp UP_ARROW  &kp LEFT        &kp RIGHT   &kp KP_DIVIDE    &kp KP_MINUS
-&kp LCTRL      &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5     &kp RA(V)  &kp C_VOLUME_DOWN                 &kp END   &kp DOWN      &kp C_PREVIOUS  &kp C_NEXT  &kp KP_MULTIPLY  &kp KP_PLUS
-                                               &mo 3      &kp LSHFT                     &kp RA(SPACE)            &trans        &trans
+&kp LS(GRAVE)  &kp RA(Q)         &kp NUMBER_2  &kp N3     &kp RA(R)  &none                         &kp N6    &kp PLUS      &kp MINUS       &kp SLASH   &kp KP_MULTIPLY  &kp DEL
+&kp TAB        &kp RA(A)         &kp RA(S)     &kp RA(D)  &kp RA(F)  &kp PAGE_UP                   &kp HOME  &kp UP_ARROW  &kp LEFT        &kp RIGHT   &kp KP_DIVIDE    &kp KP_MINUS
+&kp LCTRL      &kp RA(NUMBER_3)  &kp NUMBER_4  &kp N5     &kp RA(V)  &kp PAGE_DOWN                 &kp END   &kp DOWN      &kp C_PREVIOUS  &kp C_NEXT  &kp KP_MULTIPLY  &kp KP_PLUS
+                                               &mo 3      &kp LSHFT                 &kp RA(SPACE)            &trans        &trans
             >;
         };
 
