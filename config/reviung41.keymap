@@ -37,10 +37,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp TAB    &kp C_PREVIOUS  &kp K_NEXT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                  &kp CAPSLOCK  &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
-&kp LSHFT  &trans          &kp LEFT    &kp RIGHT     &kp UP_ARROW    &kp PAGE_UP             &kp KP_DOT    &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
-&kp LCTRL  &kp LGUI        &trans      &trans        &kp DOWN        &kp PAGE_DOWN           &kp LS(N0)    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
-                                       &trans        &kp LSHFT                      &kp RET                &kp LALT          &mo 3
+&kp TAB    &kp LS(TAB)  &kp K_NEXT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans                  &kp CAPSLOCK     &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
+&kp LSHFT  &trans       &kp LEFT    &kp RIGHT     &kp UP_ARROW    &kp PAGE_UP             &kp KP_NUMBER_0  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
+&kp LCTRL  &kp LGUI     &trans      &trans        &kp DOWN        &kp PAGE_DOWN           &kp KP_DOT       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
+                                    &trans        &kp LSHFT                      &kp RET                   &kp LALT          &mo 3
             >;
         };
 
