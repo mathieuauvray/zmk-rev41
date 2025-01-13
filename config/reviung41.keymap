@@ -44,10 +44,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
-&kp TAB    &none           &none        &none             &none              &trans                  &kp CAPSLOCK     &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
-&kp LSHFT  &kp C_PREVIOUS  &kp C_NEXT   &kp C_PLAY_PAUSE  &kp C_VOLUME_UP    &kp PAGE_UP             &kp KP_NUMBER_0  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
-&kp LCTRL  &kp LEFT_GUI    &kp LS(TAB)  &kp TAB           &kp C_VOLUME_DOWN  &kp PAGE_DOWN           &kp KP_DOT       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
-                                        &trans            &kp LSHFT                         &kp RET                   &kp BACKSPACE     &mo 3
+&kp TAB    &none           &none        &none             &none              &trans                         &kp CAPSLOCK     &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp KP_MINUS  &kp KP_DIVIDE
+&kp LSHFT  &kp C_PREVIOUS  &kp C_NEXT   &kp C_PLAY_PAUSE  &kp C_VOLUME_UP    &kp C_BRI_UP                   &kp KP_NUMBER_0  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp KP_PLUS   &kp KP_MULTIPLY
+&kp LCTRL  &kp LEFT_GUI    &kp LS(TAB)  &kp TAB           &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC           &kp KP_DOT       &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)    &kp EQUAL
+                                        &trans            &kp LSHFT                                &kp RET                   &kp BACKSPACE     &mo 3
             >;
         };
 
