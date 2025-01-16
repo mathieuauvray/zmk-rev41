@@ -59,9 +59,9 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp LS(GRAVE)  &kp RA(Q)         &kp NUMBER_2        &kp N3                &kp RA(R)        &kp EQUAL                 &kp N6         &kp PLUS      &kp MINUS       &kp RA(E)   &kp KP_MULTIPLY  &kp DEL
-&kp TAB        &kp RA(A)         &mt LEFT_ALT RA(S)  &mt LEFT_SHIFT RA(D)  &mt LCTRL RA(F)  &kp HOME                  &kp PAGE_UP    &kp UP_ARROW  &kp LEFT        &kp RIGHT   &kp KP_DIVIDE    &kp KP_MINUS
-&kp LCTRL      &kp RA(NUMBER_3)  &kp NUMBER_4        &kp N5                &kp RA(V)        &kp END                   &kp PAGE_DOWN  &kp DOWN      &kp C_PREVIOUS  &kp C_NEXT  &kp KP_MULTIPLY  &kp KP_PLUS
+&kp LS(GRAVE)  &kp RA(Q)         &kp NUMBER_2        &kp N3                &kp RA(R)        &kp EQUAL                 &kp N6         &kp PLUS      &kp MINUS   &kp RA(E)    &kp KP_MULTIPLY  &kp DEL
+&kp TAB        &kp RA(A)         &mt LEFT_ALT RA(S)  &mt LEFT_SHIFT RA(D)  &mt LCTRL RA(F)  &kp HOME                  &kp PAGE_UP    &kp UP_ARROW  &kp LEFT    &kp RIGHT    &kp KP_DIVIDE    &kp KP_MINUS
+&kp LCTRL      &kp RA(NUMBER_3)  &kp NUMBER_4        &kp N5                &kp RA(V)        &kp END                   &kp PAGE_DOWN  &kp DOWN      &kp K_COPY  &kp K_PASTE  &kp KP_MULTIPLY  &kp KP_PLUS
                                                      &mo 3                 &kp LSHFT                   &kp RA(SPACE)                 &trans        &trans
             >;
         };
