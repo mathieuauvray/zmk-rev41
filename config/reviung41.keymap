@@ -29,10 +29,10 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-&kp RBKT        &kp Q  &kp W  &kp E  &kp R      &kp T             &kp Y  &kp U          &kp I      &kp O    &kp P     &kp LBKT
-&mt LGUI ENTER  &kp A  &kp S  &kp D  &kp F      &kp G             &kp H  &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-&mt LCTRL NUBS  &kp Z  &kp X  &kp C  &kp V      &kp B             &kp N  &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                              &mo 1  &kp LSHFT         &kp SPACE         &kp BACKSPACE  &mo 2
+&kp RBKT        &kp Q           &kp W           &kp E        &kp R             &kp T             &kp Y  &kp U              &kp I        &kp O            &kp P               &kp LBKT
+&mt LGUI ENTER  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G             &kp H  &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI  &kp SQT
+&mt LCTRL NUBS  &kp Z           &kp X           &kp C        &kp V             &kp B             &kp N  &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp BSLH
+                                                &mo 1        &kp LSHFT                &kp SPACE         &kp BACKSPACE      &mo 2
             >;
         };
 
@@ -59,10 +59,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp LS(GRAVE)  &kp RA(Q)         &kp NUMBER_2        &kp N3                &kp RA(R)        &kp EQUAL                 &kp N6         &kp PLUS      &kp MINUS   &kp RA(E)    &kp KP_MULTIPLY  &kp DEL
-&kp TAB        &kp RA(A)         &mt LEFT_ALT RA(S)  &mt LEFT_SHIFT RA(D)  &mt LCTRL RA(F)  &kp HOME                  &kp PAGE_UP    &kp UP_ARROW  &kp LEFT    &kp RIGHT    &kp KP_DIVIDE    &kp KP_MINUS
-&kp LCTRL      &kp RA(NUMBER_3)  &kp NUMBER_4        &kp N5                &kp RA(V)        &kp END                   &kp PAGE_DOWN  &kp DOWN      &kp K_COPY  &kp K_PASTE  &kp KP_MULTIPLY  &kp KP_PLUS
-                                                     &mo 3                 &kp LSHFT                   &kp RA(SPACE)                 &trans        &trans
+&kp LS(GRAVE)  &kp RA(Q)           &kp NUMBER_2        &kp N3           &kp RA(R)             &kp EQUAL                 &kp N6         &kp PLUS      &kp MINUS   &kp RA(E)    &kp KP_MULTIPLY  &kp DEL
+&kp TAB        &mt LEFT_GUI RA(A)  &mt LEFT_ALT RA(S)  &mt LCTRL RA(D)  &mt LEFT_SHIFT RA(F)  &kp HOME                  &kp PAGE_UP    &kp UP_ARROW  &kp LEFT    &kp RIGHT    &kp KP_DIVIDE    &kp KP_MINUS
+&kp LCTRL      &kp RA(NUMBER_3)    &kp NUMBER_4        &kp N5           &kp RA(V)             &kp END                   &kp PAGE_DOWN  &kp DOWN      &kp K_COPY  &kp K_PASTE  &kp KP_MULTIPLY  &kp KP_PLUS
+                                                       &mo 3            &kp LSHFT                        &kp RA(SPACE)                 &trans        &trans
             >;
         };
 
